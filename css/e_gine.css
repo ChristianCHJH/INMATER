@@ -1,0 +1,38 @@
+.controlgroup-textinput {
+padding-top: .10em;
+padding-bottom: .10em;
+}
+
+.ui-dialog-contain {
+max-width: 1400px;
+margin: 1% auto 1%;
+padding: 0;
+position: relative;
+top: -35px;
+}
+
+.aux_insert, .med_insert {
+font-size: small;
+}
+
+.scroll_h {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+
+#alerta {
+background-color: #FF9;
+margin: 0 auto;
+text-align: center;
+padding: 4px;
+}
+
+.enlinea div {
+display: inline-block;
+vertical-align: middle;
+}
+
+.peke2 .ui-input-text {
+width: 100px !important;
+}

@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.box .row.header {
+    flex: 0 1 auto;
+}
+.box .row.content {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    margin: 0 0 15px 0;
+}
+.box .row.footer {
+    flex: 0 1 40px;
+    background-color: #72a2aa;
+    padding: 0 1.25rem;
+    margin: 0 0 15px 0;
+    border-radius: 0.25rem;
+}
+#form .card-body {
+    padding: 10px !important;
+}
+#table_main > thead > tr > th {
+    padding: 1px 5px !important;
+}
+@media (max-width: 768px) {
+    .row.footer {
+        font-size: 12px;
+    }
+}
+
+.ellipsis-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

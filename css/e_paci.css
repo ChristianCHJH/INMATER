@@ -1,0 +1,40 @@
+.color {
+color: #F4062B;
+}
+.scroll_h {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+#alerta {
+background-color: #FF9;
+margin: 0 auto;
+text-align: center;
+padding: 4px;
+}
+.ui-slider input[type=number] {
+display: none;
+}
+.ui-slider-track {
+margin-left: 0px;
+}
+.peke .ui-input-text {
+width: 70% !important
+}
+.peke2 .ui-input-text {
+width: 30px !important;
+}
+.peke2 span {
+float: left;
+}
+#ultimo {
+color: #9f2b1e;
+}
+.ui-tabs-panel {
+background-color: #FFF;
+padding: 5px;
+}
+.controlgroup-textinput {
+padding-top: .22em;
+padding-bottom: .22em;
+}

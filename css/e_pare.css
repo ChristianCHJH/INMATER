@@ -1,0 +1,55 @@
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.ui-dialog-contain {
+    max-width: 1200px;
+    margin: 1% auto 1%;
+    padding: 0;
+    position: relative;
+    top: -35px;
+}
+
+.enlinea div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.color {
+    color: #F4062B;
+}
+
+.ui-slider input {
+    visibility: hidden
+}
+
+.ui-slider-track {
+    margin: 0 15px 0 15px
+}
+
+.scroll_h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#alerta {
+    background-color: #FF9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px;
+}

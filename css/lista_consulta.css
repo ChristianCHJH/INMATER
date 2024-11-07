@@ -1,0 +1,34 @@
+/* input[data-type=search]:enabled { background: #fcfcfc; } */
+input[data-type=search]:disabled { background: #dddddd; }
+#alerta {
+background-color: #FF9;
+margin: 0 auto;
+text-align: center;
+padding: 4px;
+}
+.color {
+color: #F4062B !important;
+}
+.analisis .ui-btn {
+border-color: #E9A4A4 !important;
+}
+.enlinea div {
+display: inline-block;
+vertical-align: middle;
+}
+.controlgroup-textinput {
+padding-top: 0.5px;
+padding-bottom: 0.5px;
+}
+.scroll_h {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+
+@media (max-width:35em) {
+.ui-responsive>.ui-block-a, .ui-responsive>.ui-block-b {
+width: 100% !important;
+}
+}
+.fil_paci{margin: 0 auto !important;}

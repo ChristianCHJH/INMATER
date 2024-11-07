@@ -1,0 +1,33 @@
+:root {
+    --bginmater: #83b7c0;
+    --bginmater1: #d7e5e5;
+    --bginmater2: #a9d9d8;
+    --bginmater3: #ffffff;
+    --bdinamter: #72a2aa;
+    --clinamter: #33474b;
+    --clinamter1: #3b5554;
+}
+
+html .ui-bar-b .ui-btn, 
+html .ui-page-theme-a .ui-bar-inherit,
+html head + body .ui-btn.ui-btn-b{
+    background-color: var(--bginmater) !important;
+    border-color: var(--bdinamter);
+}
+
+.ui-page-theme-a .ui-btn{
+    background-color: var(--bginmater1) !important;
+    border-color: var(--bdinamter);
+    color: var(--clinamter1)!important;
+}
+.ui-bar-b{
+    background-color: var(--bginmater2) !important;
+    color: var(--clinamter)!important;
+}
+html .ui-bar-b .ui-body-inherit{
+    color: var(--clinamter)!important;
+}
+html body .ui-group-theme-c .ui-btn{
+    background-color: var(--bginmater3) !important;
+}
+

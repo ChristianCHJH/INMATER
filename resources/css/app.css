@@ -1,0 +1,99 @@
+/**Autor fidel**/
+
+.box-inline-cent{
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.swal2-container {
+    z-index: 99999;
+}
+.btn-delete-jq{
+    padding: 0px 5px;
+}
+ 
+
+.swal2-toast {
+    font-size: 16px;
+    background-color: #333;
+    color: #333;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.confirm_swal2-title {
+    margin: .5em 1em 12px 10px !important;
+    left: -48px;
+    color: #0d0d0d;
+    text-align: left;
+}
+
+.swal2-icon {
+    display: none;
+    border: none;
+}
+
+.swal2-icon-show {
+    border: none;
+}
+
+.swal2-close {
+    position: absolute;
+    top: -1px; /* Ajuste vertical */
+    right: -2px; /* Ajuste horizontal */
+    color: #111111;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.swal2-close:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.confirm_swal2-actions {
+    margin-top: 1em;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.confirm_swal2-actions .swal2-confirm,
+.confirm_swal2-actions .swal2-cancel {
+    background: transparent !important;
+    border: none;
+    color: rgb(72, 29, 201) !important;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin: 0 0.5em;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    -ms-flex-item-align: end;
+}
+
+.confirm_swal2-actions .swal2-confirm:hover,
+.confirm_swal2-actions .swal2-cancel:hover {
+    color: #ffcc00;
+    background: rgba(1, 12, 59, 0.2)!important;
+}
+
+.custom-warning-icon {
+    text-align: right;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 1em;
+    position: relative;
+    right: -27px; 
+}
+.custom-swal2-html-container {
+    text-align: right !important;
+    margin: .5em 1em .9em 0!important;
+}
+
+.center_td a{
+    display: flex!important;
+    flex-direction: column;
+    text-align: center;
+  }

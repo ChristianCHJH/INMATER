@@ -1,0 +1,7 @@
+:root{
+    --bgEmpresa: #72a2aa
+}
+
+.bg-light{
+    background-color: var(--bgEmpresa) !important;
+}

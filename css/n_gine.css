@@ -1,0 +1,26 @@
+.scroll_h {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+
+#alerta {
+background-color: #FF9;
+margin: 0 auto;
+text-align: center;
+padding: 4px;
+}
+
+.ui-tabs-panel {
+background-color: #FFF;
+padding: 5px;
+}
+
+.controlgroup-textinput {
+padding-top: 0.5px;
+padding-bottom: 0.5px;
+}
+
+.ui-li-count{
+    top: auto !important;
+}

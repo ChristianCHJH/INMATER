@@ -1,0 +1,27 @@
+.controlgroup-textinput {
+    padding-top: .10em;
+    padding-bottom: .10em;
+}
+.enlinea div {
+    display: inline-block;
+    vertical-align: middle;
+}
+#ser {
+    font-size: 12px;
+}
+#alerta {
+    background-color: #FF9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px;
+}
+.ui-dialog-contain {
+    max-width: 1200px;
+    margin: 1% auto 1%;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+.peke2 .ui-input-text {
+    width: 60px !important;
+}

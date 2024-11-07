@@ -1,0 +1,39 @@
+.color2 {
+    color: #72a2aa;
+}
+
+.scroll_h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#alerta {
+    background-color: #FF9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px;
+}
+
+.peke .ui-input-text {
+    width: 140px !important;
+
+}
+
+.peke2 .ui-input-text {
+    width: 30px !important;
+}
+
+.peke2 span {
+    float: left;
+}
+
+.ui-slider-track {
+    margin-left: 15px;
+}
+
+.enlinea div {
+    display: inline-block;
+    /* width   : 12% !important;*/
+    vertical-align: top;
+}

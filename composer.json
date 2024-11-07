@@ -1,0 +1,30 @@
+{
+    "require": {
+        "php": "^8.0",
+        "mpdf/mpdf": "^8.1",
+        "wavey/sweetalert": "^1.2",
+        "illuminate/database": "^8.0", 
+        "jenssegers/blade": "^1.4",
+        "illuminate/container": "^8.83",
+        "rakit/validation": "^1.4",
+        "symfony/asset": "^6.0",
+        "symfony/validator": "^6.0",
+        "phpoption/phpoption": "^1.9",
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10",
+        "guzzlehttp/guzzle": "^7.9",
+        "swiftmailer/swiftmailer": "^6.3",
+        "phpmailer/phpmailer": "^6.9" 
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "vendor\\minilaravel\\": "vendor/minilaravel/",
+            "Controllers\\": "app/Http/controllers/",
+            "Models\\": "app/Models/"
+        },
+        "files": [
+            "app/Helpers/ViewHelper.php"
+        ]
+    } 
+}

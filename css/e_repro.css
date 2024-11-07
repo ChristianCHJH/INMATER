@@ -1,0 +1,96 @@
+.controlgroup-textinput {
+    padding-top: .10em;
+    padding-bottom: .10em;
+}
+
+#e_repro > .ui-dialog-contain {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.page-restriccion > .ui-dialog-contain {
+    font-size: 0.9em;
+    max-width: 800px;
+}
+#wrap {
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+#wrap::-webkit-scrollbar {
+    width: 12px;
+}
+
+#wrap::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(63, 95, 95, 0.3);
+    border-radius: 10px;
+}
+
+#wrap::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(63, 95, 95, 0.5);
+}
+
+.ui-tabs-panel {
+    background-color: #FFF;
+    padding: 5px;
+}
+
+.peke .ui-input-text {
+    width: 140px !important;
+
+}
+
+.peke2 .ui-input-text {
+    width: 80px !important;
+}
+
+.ui-slider-track {
+    margin-left: 15px;
+}
+
+.enlinea div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sel_het {
+    color: #F04F52 !important;
+}
+
+#data .chosen-container { width: 180px !important; }
+#data #select-21-button { display: none !important; }
+#medicamento_1_chosen .ui-input-text,
+#medicamento_2_chosen .ui-input-text,
+#medicamento_3_chosen .ui-input-text,
+#medicamento_4_chosen .ui-input-text,
+#medicamento_5_chosen .ui-input-text{margin: 0 auto !important; width: 18px !important;}
+
+#medicamento_1_chosen .chosen-drop .ui-input-text {width: 100% !important;}
+#medicamento_2_chosen .chosen-drop .ui-input-text {width: 100% !important;}
+#medicamento_3_chosen .chosen-drop .ui-input-text {width: 100% !important;}
+#medicamento_4_chosen .chosen-drop .ui-input-text {width: 100% !important;}
+#medicamento_5_chosen .chosen-drop .ui-input-text {width: 100% !important;}
+
+
+#data div b{ margin-left: 3px; }
+.chosen-container-single .chosen-single span { margin-top: 3px; }
+a:not([href]):not([tabindex]) { height: 31px; }
+.chosen-container-single .chosen-single div b { margin-top: 5px; }
+#medicamento_1-button, #medicamento_2-button, #medicamento_3-button, #medicamento_4-button, #medicamento_5-button, #medicamento_6-button, #medicamento_7-button{display: none;}
+.ui-select{width: 180px;}
+#aspira_block {float: left; width: 100%;}
+#data td{border-top: 1px solid #dee2e6;}
+#data td{border-bottom: 1px solid #dee2e6;}
+.column-sticky {
+  position: sticky;
+  left: 0;
+  background: #f9f9f9;
+}
+.chosen-container .chosen-drop {
+	position: relative !important;
+}

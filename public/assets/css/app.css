@@ -1,0 +1,381 @@
+/**Autor fidel**/
+
+.box-inline-cent{
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.swal2-container {
+    z-index: 99999;
+}
+.btn-delete-jq{
+    padding: 0px 5px;
+}
+ 
+
+.swal2-toast {
+    font-size: 16px;
+    background-color: #333;
+    color: #333;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.confirm_swal2-title {
+    margin: .5em 1em 12px 10px !important;
+    left: -48px;
+    color: #0d0d0d;
+    text-align: left;
+}
+
+.swal2-icon {
+    display: none;
+    border: none;
+}
+
+.swal2-icon-show {
+    border: none;
+}
+
+.swal2-close {
+    position: absolute;
+    top: -1px; /* Ajuste vertical */
+    right: -2px; /* Ajuste horizontal */
+    color: #111111;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.swal2-close:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.confirm_swal2-actions {
+    margin-top: 1em;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.confirm_swal2-actions .swal2-confirm,
+.confirm_swal2-actions .swal2-cancel {
+    background: transparent !important;
+    border: none;
+    color: rgb(72, 29, 201) !important;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin: 0 0.5em;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    -ms-flex-item-align: end;
+}
+
+.confirm_swal2-actions .swal2-confirm:hover,
+.confirm_swal2-actions .swal2-cancel:hover {
+    color: #ffcc00;
+    background: rgba(1, 12, 59, 0.2)!important;
+}
+
+.custom-warning-icon {
+    text-align: right;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 1em;
+    position: relative;
+    right: -27px; 
+}
+.custom-swal2-html-container {
+    text-align: right !important;
+    margin: .5em 1em .9em 0!important;
+}
+
+.center_td a{
+    display: flex!important;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header{
+    background-color: #72a2aa;
+    border-color: #dddddd;
+    color: #323839;
+    text-shadow: 0 0;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .header h1{
+    font-size: 1em;
+    min-height: 1.1em;
+    text-align: center;
+    display: block;
+    margin: 0 30%;
+    padding: .7em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0 !important;
+    margin: 0 25% !important;
+  }
+ 
+  .astronaut {
+    position: absolute;
+    width: 185px;
+    height: 300px;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(20deg) scale(1.2);
+  }
+  
+  .astronaut__head {
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 60px;
+    height: 60px;
+    content: '';
+    border-radius: 2em;
+  }
+  
+  .astronaut__head-visor-flare1 {
+    background-color: #7f8fa6;
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-radius: 2em;
+    opacity: 0.5;
+  }
+  
+  .astronaut__head-visor-flare2 {
+    background-color: #718093;
+    position: absolute;
+    top: 40px;
+    left: 38px;
+    width: 5px;
+    height: 5px;
+    content: '';
+    border-radius: 2em;
+    opacity: 0.3;
+  }
+  
+  .astronaut__backpack {
+    background-color: #bfbfbf;
+    position: absolute;
+    top: 90px;
+    left: 47px;
+    width: 86px;
+    height: 90px;
+    content: '';
+    border-radius: 8px;
+  }
+  
+  .astronaut__body {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 115px;
+    left: 55px;
+    width: 70px;
+    height: 80px;
+    content: '';
+    border-radius: 8px;
+  }
+  
+  .astronaut__body__chest {
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 140px;
+    left: 68px;
+    width: 45px;
+    height: 25px;
+    content: '';
+    border-radius: 6px;
+  }
+  
+  .astronaut__arm-left1 {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 127px;
+    left: 9px;
+    width: 65px;
+    height: 20px;
+    content: '';
+    border-radius: 8px;
+    transform: rotate(-30deg);
+  }
+  
+  .astronaut__arm-left2 {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 102px;
+    left: 7px;
+    width: 20px;
+    height: 45px;
+    content: '';
+    border-radius: 8px;
+    transform: rotate(-12deg);
+    border-top-left-radius: 8em;
+    border-top-right-radius: 8em;
+  }
+  
+  .astronaut__arm-right1 {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 113px;
+    left: 100px;
+    width: 65px;
+    height: 20px;
+    content: '';
+    border-radius: 8px;
+    transform: rotate(-10deg);
+  }
+  
+  .astronaut__arm-right2 {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 78px;
+    left: 141px;
+    width: 20px;
+    height: 45px;
+    content: '';
+    border-radius: 8px;
+    transform: rotate(-10deg);
+    border-top-left-radius: 8em;
+    border-top-right-radius: 8em;
+  }
+  
+  .astronaut__arm-thumb-left {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 110px;
+    left: 21px;
+    width: 10px;
+    height: 6px;
+    content: '';
+    border-radius: 8em;
+    transform: rotate(-35deg);
+  }
+  
+  .astronaut__arm-thumb-right {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 90px;
+    left: 133px;
+    width: 10px;
+    height: 6px;
+    content: '';
+    border-radius: 8em;
+    transform: rotate(20deg);
+  }
+  
+  .astronaut__wrist-left {
+    background-color: #e67e22;
+    position: absolute;
+    top: 122px;
+    left: 6.5px;
+    width: 21px;
+    height: 4px;
+    content: '';
+    border-radius: 8em;
+    transform: rotate(-15deg);
+  }
+  
+  .astronaut__wrist-right {
+    background-color: #e67e22;
+    position: absolute;
+    top: 98px;
+    left: 141px;
+    width: 21px;
+    height: 4px;
+    content: '';
+    border-radius: 8em;
+    transform: rotate(-10deg);
+  }
+  
+  .astronaut__leg-left {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 188px;
+    left: 50px;
+    width: 23px;
+    height: 75px;
+    content: '';
+    transform: rotate(10deg);
+  }
+  
+  .astronaut__leg-right {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 188px;
+    left: 108px;
+    width: 23px;
+    height: 75px;
+    content: '';
+    transform: rotate(-10deg);
+  }
+  
+  .astronaut__foot-left {
+    background-color: white;
+    position: absolute;
+    top: 240px;
+    left: 43px;
+    width: 28px;
+    height: 20px;
+    content: '';
+    transform: rotate(10deg);
+    border-radius: 3px;
+    border-top-left-radius: 8em;
+    border-top-right-radius: 8em;
+    border-bottom: 4px solid #e67e22;
+  }
+  
+  .astronaut__foot-right {
+    background-color: white;
+    position: absolute;
+    top: 240px;
+    left: 111px;
+    width: 28px;
+    height: 20px;
+    content: '';
+    transform: rotate(-10deg);
+    border-radius: 3px;
+    border-top-left-radius: 8em;
+    border-top-right-radius: 8em;
+    border-bottom: 4px solid #e67e22;
+  }
+  
+  body.notfound {
+    margin: 0;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/257418/andy-holmes-698828-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace; 
+}
+
+body.forbidden{
+  background-color: #100;
+  color: white;
+  }
+  
+  body.forbidden .header h1{
+    color: #323839;
+  }
+  body.forbidden h1 {
+  color: red;
+  }
+  
+  body.forbidden h6{
+  color: red;
+    font-weight: 100;
+  text-decoration: none; /*underline;*/
+  }
+  
+  

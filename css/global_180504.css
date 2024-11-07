@@ -1,0 +1,14 @@
+body, .form-control, .btn{ font-size: 14px !important; }
+
+.body_adminlab {
+	background-image: url("../_images/slide3f.jpg");
+	background-repeat: no-repeat;
+}
+
+.h5, h5 { font-size: 1rem !important; }
+
+.input-group-addon { font-size: 14px !important; }
+
+.bg-light {
+    background-color: rgba(39, 181, 201, 0.21) !important;
+}

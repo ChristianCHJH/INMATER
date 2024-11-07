@@ -1,0 +1,29 @@
+.ui-dialog-contain {
+max-width: 1000px;
+margin: 1% auto 1%;
+padding: 0;
+position: relative;
+top: -35px;
+}
+
+.tabla table {
+border-collapse: collapse;
+}
+
+.tabla table, .tabla th, .tabla td {
+border: 1px solid #72a2aa;
+}
+
+.peke2 .ui-input-text {
+width: 100px !important;
+}
+
+.peke .ui-input-text {
+width: 140px !important;
+
+}
+
+.enlinea div {
+display: inline-block;
+vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+input[data-type="search"]:enabled {
+    background: #fcfcfc;
+}
+
+input[data-type="search"]:disabled {
+    background: #dddddd;
+}
+
+#alerta {
+    background-color: #ff9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px;
+}
+
+.color {
+    color: #f4062b !important;
+}
+
+.analisis .ui-btn {
+    border-color: #e9a4a4 !important;
+}
+
+.enlinea div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.controlgroup-textinput {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.scroll_h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,68 @@
+.container-sede .ui-btn,
+.container-tarifario .ui-btn,
+.container-servicios .ui-btn,
+.container-procedimiento .ui-btn {
+    display: none;
+}
+.controlgroup-textinput {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+.enlinea div {
+    display: inline-block;
+    vertical-align: middle;
+}
+#ser {
+    font-size: 12px;
+}
+#pago .ui-dialog-contain {
+    max-width: 1000px;
+    margin: 2% auto 1%;
+    padding: 0;
+    position: relative;
+    top: -35px;
+}
+.peke2 .ui-input-text {
+    width: 90px !important;
+    height: 28px;
+}
+.peke2 input {
+    text-align: center;
+}
+.scroll_h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.controlgroup-textinput {
+    padding-top: 0.22em;
+    padding-bottom: 0.22em;
+}
+.NoEdita {
+    pointer-events: none;
+}
+.ui-mini .ui-input-text input,
+.ui-mini .ui-input-search input,
+.ui-input-text.ui-mini input,
+.ui-input-search.ui-mini input,
+.ui-mini textarea.ui-input-text,
+textarea.ui-mini {
+    font-size: 12.5px !important;
+}
+.numero_contacto_contenedor .ui-input-text.ui-body-inherit.ui-corner-all.ui-mini.ui-shadow-inset {
+    width: 200px;
+}
+#alerta-medios-pago {
+    margin: 0.446em;
+    color: red;
+}
+.ui-dialog-contain {
+    max-width: 1000px !important;
+}
+.codigo_atencion_texto {
+    width: 120px;
+}
+
+#demo1 .ui-mini {
+    margin: 5px 0 !important;
+}

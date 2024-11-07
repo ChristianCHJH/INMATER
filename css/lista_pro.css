@@ -1,0 +1,23 @@
+.color {
+    color: #F4062B !important;
+}
+
+.color2 {
+    color: #72a2aa;
+    font-size: small;
+}
+
+.peke2 .ui-input-text {
+    width: 50px !important;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.scroll_h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
